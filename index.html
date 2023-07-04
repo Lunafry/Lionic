@@ -6,6 +6,7 @@
     <title>Lionic</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <header class="header">
@@ -47,9 +48,13 @@
                 </li>
             </ul>
         </nav>
-        <button class="header__btn btn btn-reset">
-            Free trial
+        <button class="header__btn btn btn-reset">Free trial</button>
+        <button class="btn-reset burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
         </button>
+
     </div>
 </header>
 <main class="main">
@@ -116,7 +121,7 @@
                         />
                     </svg>
                     <h3 class="services-item-title">
-                        Funeral &amp;&nbsp;Memorial
+                        Funeral & Memorial
                     </h3>
                     <p class="services-item-desc">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
@@ -129,7 +134,7 @@
                         />
                     </svg>
                     <h3 class="services-item-title">
-                        Legal &amp;&nbsp;Financial
+                        Legal & Financial
                     </h3>
                     <p class="services-item-desc">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
@@ -140,7 +145,7 @@
     </section>
     <section id="articles" class="articles section-offset">
         <div class="container">
-            <h2 class="section-title article-title">
+            <h2 class="title section-title article-title">
                 Articles
             </h2>
             <ul class="list-reset articles-list flex">
@@ -160,25 +165,6 @@
                                 </p>
                             </div>
                         </a>
-
-                    </article>
-                </li>
-                <li class="articles-item">
-                    <article class="blog-preview flex">
-                        <a class="blog-preview-link" href="#">
-                            <img src="img/blog-2.jpg" alt="Blog photo 2" class="blog-preview-image">
-                            <div class="blog-preview-text">
-                                <time class="blog-preview-time" datetime="2023-04-14 12:00">
-                                    29 Nov 2021
-                                </time>
-                                <h3 class="blog-preview-title">
-                                    Rights and obligations
-                                </h3>
-                                <p class="blog-preview-desc">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                </p>
-                            </div>
-                        </a>
                     </article>
                 </li>
                 <li class="articles-item">
@@ -191,6 +177,26 @@
                                 </time>
                                 <h3 class="blog-preview-title">
                                     Consulting
+                                </h3>
+                                <p class="blog-preview-desc">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                </p>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+                <li class="articles-item">
+
+
+                    <article class="blog-preview flex">
+                        <a class="blog-preview-link" href="#">
+                            <img src="img/blog-2.jpg" alt="Blog photo 2" class="blog-preview-image">
+                            <div class="blog-preview-text">
+                                <time class="blog-preview-time" datetime="2023-04-14 12:00">
+                                    29 Nov 2021
+                                </time>
+                                <h3 class="blog-preview-title">
+                                    Rights and obligations
                                 </h3>
                                 <p class="blog-preview-desc">
                                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
@@ -241,6 +247,7 @@
                                 John Armstrong
                             </div>
                             <span class="clients-post">
+
                              Customer
                          </span>
                         </div>
@@ -324,7 +331,7 @@
     </section>
     <section class="join-us section-offset" id="join">
         <div class="container">
-            <h2 class="section-title join-us-title">Join Us</h2>
+            <h2 class="section-title join-us-title">Join us</h2>
             <p class="section-descr join-us-descr">Take control of your paid subscriptions today!</p>
             <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="form">
                 <div class="form-top">
